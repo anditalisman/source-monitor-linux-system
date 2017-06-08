@@ -36,6 +36,9 @@ if [[ $# -eq 0 ]]
 then
 {
 
+# Welcoming Text
+user=$(id -u -n)
+echo -e "SELAMAT DATANG "$user
 
 # Define Variable tecreset
 tecreset=$(tput sgr0)
